@@ -1,3 +1,4 @@
+@import url('https://fonts.googleapis.com/css?family=Mukta:700');
 .container{
     background-color: #D9D9D9;
     display: flex;
@@ -7,6 +8,7 @@
     width:25%;
     border-radius: 100px;
     height:720px;
+    border: 3px solid #BCBCBC;
 }
 .img-icon{
     width:100%;
@@ -14,7 +16,7 @@
     text-align: center;
     padding-top: 30px;
 }
-.panel-left img{
+.img-avt{
     width:50%;
     height:200px;
     border-radius: 50%; 
@@ -28,6 +30,88 @@
     font-weight: 600;
     font-size: 20px;
 }
+.icon-infor a{
+    margin:10px;
+}
+.icon-infor img{
+    width: 10%;
+}
+.btn-infor{
+    display: flex;
+    flex-direction: column;
+}
+.group-btn-infor{
+    text-align: center;
+
+}
+.btn-infor{
+    width:50%;
+    margin-bottom: 20px;
+    display:block;
+    padding:10px;
+    font-family:helvetica;
+    cursor: pointer;
+    font-size: 15px;
+    font-weight: bold;
+    color: black;
+    background: white;
+    border: 1px solid black;
+    border-radius: 10px;
+    box-shadow: 5px 5px 0 black,
+        -5px -5px 0 black,
+        -5px 5px 0 black,
+        5px -5px 0 black;
+    transition: 500ms ease-in-out;
+}
+.btn-infor:hover{
+    box-shadow: 15px 5px 0 black, -15px -5px 0 black;
+}
+
+.btn-infor:focus{
+    outline: none;
+
+}
 .panel-right{
 
 }
+
+ 
+.btn-1 {
+    font-family: Hack, monospace;
+    background: #0F0F6D;
+    color: #ffffff;
+    cursor: pointer;
+    font-size: 2em;
+    padding: 1.5rem;
+    border: 0;
+    transition: all 0.5s;
+    border-radius: 10px;
+    width: auto;
+    position: relative;
+}
+.btn-1::after {
+        content: "\f054";
+        font-family: "Font Awesome 5 Pro";
+        font-weight: 400;
+        position: absolute;
+        left: 85%;
+        top: 31%;
+        right: 5%;
+        bottom: 0;
+        opacity: 0;
+
+    }
+
+    .btn-1:hover {
+        background: #2b2bff;
+        transition: all 0.5s;
+        border-radius: 10px;
+        box-shadow: 0px 6px 15px #0000ff61;
+        padding: 1.5rem 3.5rem 1.5rem 1.5rem;
+    }
+        .btn-1::after {
+            opacity: 1;
+            transition: all 0.5s;
+
+        }
+
