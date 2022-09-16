@@ -4,6 +4,8 @@ import "./index.css";
 import App from "./App";
 import { BrowserRouter as Router } from "react-router-dom";
 import { StrictMode } from "react";
+import '../node_modules/font-awesome/css/font-awesome.min.css'; 
+
 
 ReactDOM.render(
   <React.StrictMode>

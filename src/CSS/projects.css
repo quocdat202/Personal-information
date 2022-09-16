@@ -1,0 +1,21 @@
+.title-project {
+  color: white;
+  font-weight: 600;
+  font-size: 40px;
+  font-family: Verdana, Geneva, Tahoma, sans-serif;
+  text-align: center;
+}
+.project-panel {
+  display: flex;
+}
+.panel {
+  padding: 20px;
+  width: 50%;
+}
+.title-project-center {
+  text-align: center;
+  font-size: 20px;
+  font-weight: 600;
+  font-family: Verdana, Geneva, Tahoma, sans-serif;
+  color: white;
+}
